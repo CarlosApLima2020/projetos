@@ -1,12 +1,12 @@
 (() => {
     const selector = selector => {
-        const elem = document.querySelector(selector);
-        return elem;
+        const myElement = document.querySelector(selector);
+        return myElement;
     };
 
     const create = element => {
-        const elem = document.createElement(element);
-        return elem;
+        const myElement = document.createElement(element);
+        return myElement;
     };
 
     const app = selector('#app');
